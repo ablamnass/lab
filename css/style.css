@@ -4,6 +4,17 @@ body{
 h1{
 	color: green;
 }
+p{
+	padding: 2%;
+	min-width: 10px;
+	min-height: 20px
+	overflow: scroll;
+}
+body>table{
+	width: 98%;
+	height: auto;
+	margin: 1%;
+}
 a:link {
 	color: deeppink;
 	text-decoration: none;}
@@ -18,23 +29,54 @@ img{
 	width: 40%;
 	height:50%;
 	position:center;
-	border-width: 5px;
-	border: solid;
-	border-color: gray;
+}
+body+div{
+	margin: 1em;
+	height: auto;
+	border: double;
+	padding: 1%;
+	background-color: hsl(90, 40%,50%);
+}
+div:hover{
+	background-color: hsl(40,100%,70%);
+}
+div:active{
+background-color: hsl(90, 40%,50%);
 }
 div>a{
 	display: block;
+}
+tr{
+	width: inherit;
+	height: inherit;
+	background-color: hsl(12, 100%,60%);
+}
+tr>th{
+	border: solid .02em black;
+}
+th:hover{
+	background-color: hsl(20, 40%,60%);
+}
+td{
+	margin: 2em;
+	padding: 1em;
+	border: solid .02em black;
+}
+td:hover{
+	background-color:hsl(20, 50%, 80%);
 }
 .position{
 	text-align: center;
 }
 .shadow{
-	text-shadow: -2px -2px green;
+	text-shadow: -2px -2px hsl(20, 40%,60%);
 }
-tr{
-	background-color:hsl(20, 50%, 50%);
+#name{
+	font-family: serif;
+	font-size: 120%;
 }
-td{
-	margin: 2em;
-	padding: 1em;
+#box{
+	border-width: 5px;
+	border: solid;
+	border-color: gray;
 }
