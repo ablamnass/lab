@@ -1,0 +1,40 @@
+body{
+	font-family: Arial, Verdana, sans-serif;			
+}
+h1{
+	color: green;
+}
+a:link {
+	color: deeppink;
+	text-decoration: none;}
+a:visited {
+	color: black;}
+a:hover {
+	color: deeppink;
+	text-decoration: underline;}
+a:active {
+	color: darkcyan;}
+img{
+	width: 40%;
+	height:50%;
+	position:center;
+	border-width: 5px;
+	border: solid;
+	border-color: gray;
+}
+div>a{
+	display: block;
+}
+.position{
+	text-align: center;
+}
+.shadow{
+	text-shadow: -2px -2px green;
+}
+tr{
+	background-color:gray;
+}
+td{
+	margin: 2em;
+	padding: 1em;
+}
