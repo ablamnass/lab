@@ -32,7 +32,7 @@ div>a{
 	text-shadow: -2px -2px green;
 }
 tr{
-	background-color:gray;
+	background-color:hsl(20, 50%, 50%);
 }
 td{
 	margin: 2em;
