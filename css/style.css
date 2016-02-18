@@ -1,14 +1,18 @@
 body{
-	font-family: Arial, Verdana, sans-serif;			
+	font-family: Arial, Verdana, sans-serif;
+	background-color: hsl(35, 70%,40%);
 }
 h1{
-	color: green;
+	color: hsl(50, 100%,20%);
+	text-shadow: 3px 3px 3px #666666;
 }
 p{
-	padding: 2%;
-	min-width: 10px;
-	min-height: 20px
-	overflow: scroll;
+	margin: 2%;
+	padding: 1%;
+	min-width: 10%;
+	min-height: 5%;
+	background-color: hsl(40, 20%,50%);
+	border: dashed;
 }
 body>table{
 	width: 98%;
@@ -30,7 +34,7 @@ img{
 	height:50%;
 	position:center;
 }
-body+div{
+body>div{
 	margin: 1em;
 	height: auto;
 	border: double;
